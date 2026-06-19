@@ -8,6 +8,7 @@ A helpful guide for common development issues.
     - [error: failed to create directory `/.../target/debug`](#error-failed-to-create-directory-targetdebug)
     - [Cannot find module '@app/features/i18n/...'](#cannot-find-module-appfeaturesi18n)
     - [How do I open the dev server in my browser?](#how-do-i-open-the-dev-server-in-my-browser)
+    - [How do I verify my email?](#how-do-i-verify-my-email)
 
 ---
 
@@ -38,3 +39,10 @@ If this doesn't work, make sure you have installed all the necessary packages wi
 
 ### How do I open the dev server in my browser?
 In the website address bar, type `http://localhost:8088` and hit enter, or simply click [here](http://localhost:8088)
+
+---
+
+### How do I verify my email?
+When you register an account on the dev server, you may be asked to verify your email. This email will be put in the mailpit instead of actually sent via a mail server.
+
+The mailpit can be found at `http://localhost:8088/devmail`
